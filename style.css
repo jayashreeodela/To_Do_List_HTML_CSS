@@ -1,0 +1,70 @@
+ * {
+     margin: 0px;
+     padding: 0px;
+     justify-content: center;
+     align-items: center;
+
+ }
+
+ section {
+    /* align-items: center;
+    justify-content: center; */
+    width: 217vh;
+    height: 100vh;
+    background-image: url("To_Do_List.gif");;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-attachment:local;
+    background-size: cover;
+    width:100vw;
+    height:100vh;
+ }
+
+ .container {
+     align-items: center;
+     justify-content: space-between;
+     text-align: center;
+     width: 400px;
+     padding: 10px;
+     transform: translate(70vh, 45vh);
+     /* transform: translateX(25vh); */
+ }
+
+ .inputs {
+     display: flex;
+     justify-content: space-between;
+     margin: 10px;
+     flex-grow: 1;
+ }
+
+ .textbox {
+     width: 350px;
+     border: none;
+     margin-bottom: 5px;
+     padding: 4px;
+     font-style: italic;
+     font-weight: 500;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+ #inputcolor1 {
+     color: rgb(255, 6, 247);
+ }
+
+ #inputcolor2 {
+     color: rgb(51, 0, 255);
+ }
+
+ #inputcolor3 {
+     color: rgb(255, 0, 0);
+ }
+
+ #inputcolor4 {
+     color: rgb(191, 0, 255);
+
+ }
+
+ .inputs:has(.checkboxs:checked) {
+     text-decoration: line-through;
+     order: 10;
+ }
